@@ -18,7 +18,7 @@ You would have wondered if it&#8217;s possible to reconfigure the PL part withou
 
 <!--more-->
 
-```bash
+```
 #echo '0' &gt; /sys/devices/soc0/amba/f8007000.devcfg/is_partial_bitstream
 //echo '1' for partial bitstreams
 #cat whatever_the_bit_file_name_is.bit &gt; /dev/xdevcfg
