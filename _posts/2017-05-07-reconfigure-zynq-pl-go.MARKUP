@@ -18,9 +18,9 @@ You would have wondered if it&#8217;s possible to reconfigure the PL part withou
 
 <!--more-->
 
-<pre class="lang:default decode:true ">#echo '0' &gt; /sys/devices/soc0/amba/f8007000.devcfg/is_partial_bitstream
+<span>#echo '0' &gt; /sys/devices/soc0/amba/f8007000.devcfg/is_partial_bitstream
 //echo '1' for partial bitstreams
-#cat whatever_the_bit_file_name_is.bit &gt; /dev/xdevcfg</pre>
+#cat whatever_the_bit_file_name_is.bit &gt; /dev/xdevcfg</span>
 
 Yeah, that&#8217;s it! Make sure you&#8217;re running it as root.
 
