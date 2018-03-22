@@ -12,6 +12,7 @@ tags:
   - linux
   - Vivado
   - Zynq
+comments: true
 ---
 You would have wondered if it&#8217;s possible to reconfigure the PL part without any interruption while PS is running Linux. Well, it&#8217;s possible and as simple as,
 
