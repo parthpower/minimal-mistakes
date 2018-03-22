@@ -2,6 +2,7 @@
 title: How to reconfigure Zynq-PL on-the-go?
 date: 2017-05-07T19:27:39+00:00
 author: Parth Parikh
+author_profile: true
 permalink: /reconfigure-zynq-pl-go/
 categories:
   - FPGA
